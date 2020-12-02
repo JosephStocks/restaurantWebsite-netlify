@@ -1,3 +1,43 @@
 @import 'variables';
 
-@import '../../node_modules/bootstrap/scss/bootstrap.scss'
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+#logo {
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 500;
+    font-size: 100px;
+    // padding: 0;
+    line-height: 1;
+
+    :hover {
+        text-decoration: none;
+    }
+}
+
+nav ul {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.testclass {
+    height: 100vh;
+}
+
+// .nav-link {
+//     width: 100px;
+// }
+.active, nav a:hover {
+    border-bottom: 4px $primary solid;
+}
+
+// #hero-welcome-quotes {
+
+// }
+// blockquote {
+//     display: inline-block;
+//     width: 200px;
+// }
+
+// .enclose-quote {
+//     height: 200px;
+// }
