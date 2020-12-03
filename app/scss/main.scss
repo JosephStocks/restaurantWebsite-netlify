@@ -19,10 +19,6 @@ nav ul {
     font-weight: 600;
 }
 
-.testclass {
-    height: 100vh;
-}
-
 // .nav-link {
 //     width: 100px;
 // }
@@ -41,3 +37,10 @@ nav ul {
 // .enclose-quote {
 //     height: 200px;
 // }
+
+@include media-breakpoint-down(sm) {
+    // Styles
+    .blockquote {
+        width: 85%;
+    }
+  }

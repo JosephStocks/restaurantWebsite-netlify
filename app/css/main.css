@@ -7168,8 +7168,9 @@ nav ul {
   font-size: 25px;
   font-weight: 600; }
 
-.testclass {
-  height: 100vh; }
-
 .active, nav a:hover {
   border-bottom: 4px #EA755E solid; }
+
+@media (max-width: 767.98px) {
+  .blockquote {
+    width: 85%; } }
